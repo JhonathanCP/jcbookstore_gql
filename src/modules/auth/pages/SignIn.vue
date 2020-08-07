@@ -84,6 +84,7 @@ export default {
 						localStorage.token = token
 						this.setUser(user)
 						this.setToken(token)
+						this.$router.push('/')
 					})
 			}
 		}

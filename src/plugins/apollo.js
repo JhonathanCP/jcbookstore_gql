@@ -1,9 +1,9 @@
-import Vue from 'vue'
-import VueApollo from 'vue-apollo'
-import { ApolloClient } from 'apollo-client'
-import { createHttpLink } from 'apollo-link-http'/* Enlaza la instancia con el API de manera dinámica */
-import { InMemoryCache } from 'apollo-cache-inmemory'/* Permite crear store dentro del apollo */
-import { setContext } from 'apollo-link-context'/* Permite acceder al token de la autenticación */
+import Vue from 'vue';
+import VueApollo from 'vue-apollo';
+import { ApolloClient } from 'apollo-client';
+import { createHttpLink } from 'apollo-link-http';/* Enlaza la instancia con el API de manera dinámica */
+import { InMemoryCache } from 'apollo-cache-inmemory';/* Permite crear store dentro del apollo */
+import { setContext } from 'apollo-link-context';/* Permite acceder al token de la autenticación */
 
 Vue.use(VueApollo)
 
